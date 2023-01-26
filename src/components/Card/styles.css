@@ -1,0 +1,33 @@
+.container {
+  background-color: #fff;
+  width: 250px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.activeContainer {
+  background-color: orange;
+  width: 250px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.email {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
